@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12b39146-2b48-44c5-acc3-596dbc09b32b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Wind/Architectures/CNNS2S2DArchitecture.py" beforeDir="false" afterPath="$PROJECT_DIR$/Wind/Architectures/CNNS2S2DArchitecture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wind/Architectures/CNNS2SCrazyIvanArchitecture.py" beforeDir="false" afterPath="$PROJECT_DIR$/Wind/Architectures/CNNS2SCrazyIvanArchitecture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wind/Train/TrainingProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Wind/Train/TrainingProcess.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wind/Architectures/CNNS2S2DArchitecture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wind/Architectures/CNNS2SArchitecture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-808" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Wind/Architectures/CNNS2SCrazyIvanArchitecture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="119" column="37" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+              <folding>
+                <element signature="e#343#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2D</find>
+      <find>Mode</find>
+      <find>architecture.data_mode</find>
+      <find>data_mode</find>
+      <find>architecture</find>
+      <find>print</find>
+      <find>varsf</find>
+      <find>class</find>
+      <find>MLP</find>
+      <find>archi</find>
+      <find>impor</find>
+      <find>pollo</find>
+      <find>MLPS2SArchitecture</find>
+      <find>MLP_s2s</find>
+      <find>get_data_matrices</find>
+      <find>Input</find>
+      <find>import</find>
+      <find>auxiliary_future</find>
+      <find>Ensemble</find>
+      <find>Ensembles</find>
+      <find>lagged_matrix</find>
+      <find>for</find>
+      <find>o</find>
+      <find>dataset</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Wind/TestConfigs/config_MLP_s2s.json" />
+        <option value="$PROJECT_DIR$/Wind/TestConfigs/config_MLP_s2s_future.json" />
+        <option value="$PROJECT_DIR$/Wind/Architectures/MLPS2SArchitectureFuture.py" />
+        <option value="$PROJECT_DIR$/Wind/Train/TrainingProcess.py" />
+        <option value="$PROJECT_DIR$/Wind/Train/TrainDispatch.py" />
+        <option value="$PROJECT_DIR$/Wind/Architectures/__init__.py" />
+        <option value="$PROJECT_DIR$/Wind/Architectures/pollo" />
+        <option value="$PROJECT_DIR$/Wind/Architectures/MLPS2SArchitecture.py" />
+        <option value="$PROJECT_DIR$/Wind/Architectures/MLPS2SFutureArchitecture.py" />
+        <option value="$PROJECT_DIR$/Wind/Data/DataSet.py" />
+        <option value="$PROJECT_DIR$/Wind/Misc.py" />
+        <option value="$PROJECT_DIR$/Wind/Architectures/Architecture.py" />
+        <option value="$PROJECT_DIR$/Wind/Architectures/NNArchitecture.py" />
+        <option value="$PROJECT_DIR$/Wind/Architectures/CNNS2S2DArchitecture.py" />
+        <option value="$PROJECT_DIR$/Wind/Architectures/CNNS2SCrazyIvanArchitecture.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Wind.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="575" />
+    <option name="y" value="34" />
+    <option name="width" value="1233" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Wind" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wind" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wind" type="462c0819:PsiDirectoryNode" />
+              <item name="Wind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wind" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wind" type="462c0819:PsiDirectoryNode" />
+              <item name="Wind" type="462c0819:PsiDirectoryNode" />
+              <item name="Architectures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wind" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wind" type="462c0819:PsiDirectoryNode" />
+              <item name="Wind" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wind" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wind" type="462c0819:PsiDirectoryNode" />
+              <item name="Wind" type="462c0819:PsiDirectoryNode" />
+              <item name="Train" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Wind/Architectures/CNNS2S2DArchitecture.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Wind\Wind\Architectures" />
+      <recent name="E:\Wind\Wind\TestConfigs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12b39146-2b48-44c5-acc3-596dbc09b32b" name="Default Changelist" comment="" />
+      <created>1553702993969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553702993969</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="575" y="34" width="1233" height="1000" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28451884" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Wind/DataBaseConfigurations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/TestConfigs/config_RNN_s2s.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/TestConfigs/config_RNN_ED_s2s_att.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/TestConfigs/config_MLP_s2s.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/TestConfigs/config_MLP_s2s_future.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play/SitesClustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/RNNEncoderDecoderS2SArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/MLPS2SArchitectureFuture.py" />
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/Util.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Train/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wind.doxygen">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="323" column="49" selection-start-line="323" selection-start-column="49" selection-end-line="323" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="e#160#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/RNNEncoderDecoderS2SDepArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" selection-start-line="110" selection-end-line="135" selection-end-column="81" />
+          <folding>
+            <element signature="e#298#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/pollo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/MLPS2SFutureArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="56" selection-start-line="56" selection-end-line="57" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#178#1" />
+            <element signature="e#180#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/MLPS2SArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="44" selection-start-line="44" selection-end-line="62" selection-end-column="62" />
+          <folding>
+            <element signature="e#180#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146134">
+          <caret line="4901" column="41" lean-forward="true" selection-start-line="4901" selection-start-column="41" selection-end-line="4901" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vars.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Train/RunConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Train/TrainDispatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+          <folding>
+            <element signature="e#214#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Misc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Train/TrainingProcess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/NewReferenceArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/Architecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="158" column="14" lean-forward="true" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/NNS2SArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#178#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/NNArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Data/DataSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="394" column="51" selection-start-line="394" selection-start-column="51" selection-end-line="394" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/CNNS2S2DArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/CNNS2SArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-808" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wind/Architectures/CNNS2SCrazyIvanArchitecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="119" column="37" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+          <folding>
+            <element signature="e#343#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

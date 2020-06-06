@@ -1,0 +1,18 @@
+{ "_id": "00000000",
+  "experiment": "TEST",
+  "data": {
+    "datanames": ["11-5795-12"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 43834,
+    "testsize": 17534,
+    "dataset": 0,
+    "lag": 1200,
+    "ahead": [1,12]
+  },
+  "arch": {
+    "alpha": [0.99999, 0.99999, 1],
+    "mode": "persistencemean"
+  },
+  "training": {}
+}

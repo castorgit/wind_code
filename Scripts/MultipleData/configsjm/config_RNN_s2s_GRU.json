@@ -1,0 +1,41 @@
+{ "_id": "00000000",
+    "experiment": "RNN_BEST",
+  "data": {
+    "datanames": ["11-5794-12"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 43834,
+    "testsize": 17534,
+    "dataset": "onesitemanyvar",
+    "lag": 18,
+    "ahead": [1,12],
+    "angle":false
+  },
+  "arch": {
+    "neurons":128,
+    "k_reg": "None",
+    "k_regw": 0.1,
+    "rec_reg": "None",
+    "rec_regw": 0.1,
+    "drop": 0.1,
+    "nlayers": 1,
+    "activation": ["elu",0.4],
+    "activation_r": "hard_sigmoid",
+    "CuDNN": true,
+    "bidirectional": true,
+    "bimerge":"ave",
+    "rnn": "GRU",
+    "full": [512,256,128],
+    "activation_full": ["elu",0.3],
+    "fulldrop": 0.3,
+    "mode": "RNN_s2s"
+  },
+  "training": {
+    "iter":1,
+    "batch": 1024,
+    "epochs": 200,
+    "patience": 10,
+    "optimizer": "adamax",
+    "lrate": 0.001
+  }
+}

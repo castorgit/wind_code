@@ -1,0 +1,25 @@
+{ "_id": "00000000",
+    "experiment": "TEST",
+  "data": {
+    "datanames": ["10-5308-12"],
+    "scaler": "standard",
+     "vars": "all",
+    "datasize": 43834,
+    "testsize": 17534,
+      "dataset": 1,
+      "dmatrix": "normal",
+    "lag": 6,
+      "ahead": [1,12],
+      "fraction": 1
+  },
+  "arch": {
+      "max_depth": 15,
+      "n_estimators" : 200,
+    "learning_rate": 1.0,
+    "loss": "linear",
+    "mode": "AB_dir_reg"
+  },
+  "training":{
+    "iter":1
+  }
+}

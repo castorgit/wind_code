@@ -1,0 +1,47 @@
+{ 
+   "_id": "00000000",
+      "experiment": "TimeInception",
+  "data": {
+    "datanames": ["11-5794-12"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 43834,
+    "testsize": 17534,
+    "dataset": "onesitemanyvar",
+    "lag": 144,
+    "ahead": [1,14],
+    "angle":false
+  },
+        "arch": {
+            "filters": 128,
+            "strides": [1,1],
+            "residual": false,
+            "bottleneck": true,
+            "bottleneck_size": 1,
+            "depth": 2,
+            "separable": true,
+            "kernel_size": [3],
+            "drop": 0.2,
+            "activation": ["elu",0.2],
+            "padding":"causal",
+            "bias": false,
+            "batchnorm":false,
+            "activation_full": ["elu",0.2],
+            "full": [512],
+            "fulldrop": 0.3,
+            "k_reg": "None",
+            "k_regw": 0.1,
+            "rec_reg": "None",
+            "rec_regw": 0.1,
+            "fulltype": "mlp",
+            "mode":"TimeInception"
+        },
+    "training": {
+    "iter":1,
+    "batch": 1024,
+    "epochs": 200,
+    "patience":10,
+    "optimizer": "adamax",
+    "lrate": 0.001
+  }
+}

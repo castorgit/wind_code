@@ -1,0 +1,40 @@
+{ 
+   "_id": "00000000",
+      "experiment": "CNN MIMO 2L",
+  "data": {
+    "datanames": ["75-37917-12"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 526008,
+    "testsize": 17534,
+    "dataset": "onesitemanyvar",
+    "lag": 6,
+    "ahead": [1,12]
+  },
+  "arch": {
+    "filters": [128],
+    "strides": [1],
+    "kernel_size": [5],
+    "dilation": false,
+    "k_reg": "None",
+    "k_regw": 0.1,
+    "rec_reg": "None",
+    "rec_regw": 0.1,
+    "drop": 0.3,
+    "fulltype":"mlp",
+    "activation": ["elu",0.4],
+    "activation_full": ["elu",0.3],
+    "fulldrop": 0.2,
+    "full": [16,8],
+    "mode":"CNN_s2s"
+  },
+  "training": {
+    "iter": 1,
+    "saverrors": true,
+    "batch": 1024,
+      "epochs": 200,
+      "patience":10,
+      "optimizer": "adamax",
+    "lrate": 0.001
+  }
+}

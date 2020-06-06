@@ -1,0 +1,44 @@
+{ 
+   "_id": "CNN_sep_2l",
+      "experiment": "TEST",
+  "data": {
+    "datanames": ["92-46325-12"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 43834,
+    "testsize": 17534,
+    "dataset": "onesitemanyvar",
+    "lag": 6,
+    "ahead": [1,12]
+  },
+  "arch": {
+      "filters": [128,256],
+      "strides": [1,1],
+      "kernel_size": [9,1],
+      "depth_multiplier": 1,
+      "activation": ["elu",0.4],
+      "drop": 0.4,
+      "dilation": false,
+      "k_reg": "None",
+      "k_regw": 0.1,
+      "rec_reg": "None",
+      "rec_regw": 0.1,
+      "activation_full": ["elu",0.4],
+      "fulldrop": 0.4,
+      "full": [512],
+	  "fulltype": "mlp",
+	  "nmodels": 15,
+      "alpha": 0.3,
+      "decay": 0.90,
+      "mode":"CNN_s2s_gb"
+  },
+  "training": {
+    "iter": 1,
+    "batch": 1024,
+    "epochs": 200,
+    "patience":10,
+     "saverrors": true,
+    "optimizer": "adamax",
+    "lrate": 0.001
+  }
+}

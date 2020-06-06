@@ -1,0 +1,50 @@
+{ 
+   "_id": "CNN_2l_GB",
+      "experiment": "TEST",
+  "data": {
+    "datanames": ["92-46325-12"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 43834,
+    "testsize": 17534,
+    "dataset": "onesitemanyvar",
+    "lag": 12,
+    "ahead": [1,12]
+  },
+  "arch": {
+      "filters": [128],
+      "strides": [1],
+      "kernel_size": [3],
+      "depth_multiplier": 8,
+      "activation": ["elu",0.4],
+      "drop": 0.3,
+      "filters2": [128],
+      "strides2": [1],
+      "kernel_size2": [1],
+      "depth_multiplier2": 7,
+      "activation2": ["elu",0.4],
+      "drop2": 0.2,
+      "dilation": false,
+      "k_reg": "None",
+      "k_regw": 0.1,
+      "rec_reg": "None",
+      "rec_regw": 0.1,
+      "activation_full": ["leaky",0.3],
+	  "fulltype": "mlp",
+      "fulldrop": 0.3,
+      "full": [512],
+	  "nmodels": 5,
+      "alpha": 0.3,
+      "decay": 0.9,
+      "mode":"CNN_s2s_gb"
+  },
+  "training": {
+    "iter": 1,
+    "batch": 1024,
+    "epochs": 200,
+    "patience":10,
+    "saverrors": true,
+    "optimizer": "adamax",
+    "lrate": 0.001
+  }
+}

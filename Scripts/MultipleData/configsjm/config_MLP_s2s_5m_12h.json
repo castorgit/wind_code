@@ -1,0 +1,36 @@
+{"_id": "00000000",
+  "experiment": "MLP_2L_5m_12h",
+  "data": {
+    "datanames": ["54-27274-01"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 526008,
+    "testsize": 210408,
+    "aggregate":{
+       "step": 12,
+       "y":{
+         "step": 12,
+         "method": "average"
+        }
+    }, 
+    "dataset": "onesitemanyvar",
+    "lag": 144,
+    "fraction": 1,
+    "slice": 1,
+    "ahead": [1,144]
+  },
+  "arch": {
+      "drop": 0.3,
+      "activation": ["leaky", 0.2],
+      "full": [512,256],
+      "mode":"MLP_s2s"
+  },
+  "training": {
+    "iter":1,
+    "batch": 1024,
+    "epochs": 200,
+    "patience":10,
+    "optimizer": "adamax",
+    "lrate": 0.001
+  }
+}

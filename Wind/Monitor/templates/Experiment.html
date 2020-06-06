@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wind Finished experiments Page</title>
+
+    <style type="text/css">
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Wind Experiment</h1>
+
+<br>
+
+<table>
+  <tr> <td>ID </td>  <td>{{exp['_id']}} </td>
+  </tr>
+  <tr> <td>data </td>  <td>{{exp['data']['datanames'][0]}} </td>
+  </tr>
+  <tr> <td>dataset </td>  <td>{{exp['data']['dataset']}} </td>
+  </tr>
+  <tr> <td>vars </td>  <td>{{exp['data']['vars']}} </td>
+  </tr>
+  <tr> <td>lag </td>  <td>{{exp['data']['lag']}} </td>
+  </tr>
+   <tr> <td>rnn </td>  <td>{{exp['arch']['rnn']}} </td>
+  </tr>
+
+   <tr> <td>bi </td>  <td>
+          {% if  exp['arch']['bidirectional']%}
+       {{exp['arch']['bimerge']}}
+        {% else %}
+       no
+   {% endif %}
+   </td>
+  </tr>
+  <tr> <td>nlayers </td>  <td>{{exp['arch']['nlayers']}} </td>
+  </tr>
+
+   <tr> <td>nneurons </td>  <td>{{exp['arch']['neurons']}} </td>
+  </tr>
+  <tr> <td>drop </td>  <td>{{exp['arch']['drop']}} </td>
+  </tr>
+  <tr> <td>act </td>  <td>{{exp['arch']['activation']}} </td>
+  </tr>
+ <tr> <td>opt </td>  <td>{{exp['training']['optimizer']}} </td>
+  </tr>
+
+
+</table>
+
+<img src="data:image/png;base64, {{ plot_url }}">
+
+</body>
+</html>

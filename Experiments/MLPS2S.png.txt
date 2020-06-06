@@ -1,0 +1,38 @@
+Running job 00000000 11-5794 MLP_s2s 2019-01-28 12:09:39
+--------- Architecture parameters -------
+MLPS2S
+# drop = 0.1
+# activation = relu
+# full = [1024, 64]
+# mode = MLP_s2s
+--------- Data parameters -------
+# datanames = ['11-5794-12']
+# scaler = minmax
+# vars = [0, 1, 2, 3, 4, 5, 6]
+# datasize = 43834
+# testsize = 17534
+# dataset = 1
+# lag = 18
+# fraction = 1
+# ahead = [10, 12]
+--------- Training parameters -------
+# iter = 1
+# batch = 1024
+# epochs = 200
+# patience = 10
+# optimizer = adamax
+# lrate = 0.001
+---------------------------------------
+hola {self.modname}.png
+--- Dataset Configuration-----------
+Dataset name: ['11-5794-12']
+Data fraction: 1
+Training:   X=(43804, 126) Y=(43804, 3)
+Validation: X=(8752, 126) Y=(8752, 3)
+Tests:      X=(8752, 126) T=(8752, 3)
+Dataset type= onesitemanyvar
+Scaler= minmax
+Vars= [0, 1, 2, 3, 4, 5, 6]
+Lag= 18
+Ahead= [10, 12]
+------------------------------------

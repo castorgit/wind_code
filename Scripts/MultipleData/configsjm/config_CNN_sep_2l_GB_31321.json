@@ -1,0 +1,50 @@
+{ 
+   "_id": "CNN_sep_2l",
+      "experiment": "CNN sep MIMO 2L",
+  "data": {
+    "datanames": ["62-31321-12"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 43834,
+    "testsize": 17534,
+    "dataset": "onesitemanyvar",
+    "lag": 12,
+    "ahead": [1,12]
+  },
+  "arch": {
+      "filters": [512],
+      "strides": [2],
+      "kernel_size": [9],
+      "depth_multiplier": 8,
+      "activation": ["elu",0.3],
+      "drop": 0.6,
+      "filters2": [512],
+      "strides2": [4],
+      "kernel_size2": [1],
+      "depth_multiplier2": 7,
+      "activation2": ["elu",0.3],
+      "drop2": 0.6,
+      "dilation": false,
+      "k_reg": "None",
+      "k_regw": 0.1,
+      "rec_reg": "None",
+      "rec_regw": 0.1,
+      "activation_full": ["elu",0.4],
+      "fulldrop": 0.10,
+      "fulltype": "mlp",
+      "nmodels": 5,
+      "alpha": 0.3,
+      "decay": 0.90,
+      "full": [512],
+      "mode":"CNN_sep_2l_s2s_gb"
+  },
+  "training": {
+    "iter": 1,
+    "batch": 1024,
+    "epochs": 400,
+    "patience":10,
+    "optimizer": "adamax",
+    "saverrors": true,
+    "lrate": 0.001
+  }
+}

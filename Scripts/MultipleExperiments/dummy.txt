@@ -1,0 +1,4 @@
+@ECHO OFF.
+
+SET var= 3
+ECHO %var%

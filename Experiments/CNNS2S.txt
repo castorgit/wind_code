@@ -1,0 +1,43 @@
+CNNS2S
+# filters = [32]
+# strides = [1]
+# kernel_size = [3]
+# k_reg = None
+# k_regw = 0.1
+# rec_reg = None
+# rec_regw = 0.1
+# drop = 0
+# nlayers = 1
+# activation = relu
+# activationfl = linear
+# full = [16, 8]
+# mode = CNN_s2s
+--------- Data parameters -------
+# datanames = ['11-5794-12']
+# scaler = standard
+# vars = [0, 1, 2, 3, 4, 5, 6]
+# datasize = 43834
+# testsize = 17534
+# dataset = onesitemanyvar
+# lag = 18
+# ahead = [1, 12]
+--------- Training parameters -------
+# batch = 1000
+# epochs = 5
+# patience = 10
+# optimizer = adamax
+# lrate = 0.001
+---------------------------------------
+hola {self.modname}.png
+--- Dataset Configuration-----------
+Dataset name: ['11-5794-12']
+Data fraction: 2
+Training:   X=(43804, 18, 7) Y=(43804, 12)
+Validation: X=(8752, 18, 7) Y=(8752, 12)
+Tests:      X=(8752, 18, 7) T=(8752, 12)
+Dataset type= onesitemanyvar
+Scaler= standard
+Vars= [0, 1, 2, 3, 4, 5, 6]
+Lag= 18
+Ahead= [1, 12]
+------------------------------------

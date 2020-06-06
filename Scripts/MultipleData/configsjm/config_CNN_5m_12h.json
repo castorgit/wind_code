@@ -1,0 +1,47 @@
+{ 
+   "_id": "00000000",
+      "experiment": "CNN_s2s_cas",
+  "data": {
+    "datanames": ["11-5794-12"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 526008,
+    "testsize": 210408,
+    "dataset": "onesitemanyvar",
+    "lag": 144,
+    "ahead": [1,144],
+    "aggregate":{
+       "step": 12,
+       "y":{
+         "step": 12,
+         "method": "average"
+        }
+    },
+    "ahead": [1,12]
+  },
+  "arch": {
+    "filters": [512],
+    "strides": [1],
+    "kernel_size": [1],
+    "dilation": false,
+    "k_reg": "None",
+    "k_regw": 0.1,
+    "rec_reg": "None",
+    "rec_regw": 0.1,
+    "drop": 0.5,
+    "activation": ["elu",0.1],
+    "activation_full": ["leaky",0.4],
+    "fulltype": "mlp",
+    "fulldrop": 0.5,
+    "full": [1024,512,256],
+     "mode":"CNN_s2s"
+  },
+  "training": {
+    "iter": 1,
+    "batch": 1024,
+      "epochs": 200,
+      "patience":10,
+      "optimizer": "adamax",
+    "lrate": 0.001
+  }
+}

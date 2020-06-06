@@ -1,0 +1,38 @@
+{ 
+   "_id": "00000000",
+   "experiment": "CNN_1L_residual",
+  "data": {
+    "datanames": ["11-5794-12"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 43834,
+    "testsize": 17534,
+    "dataset": "onesitemanyvar",
+    "lag": 12,
+    "ahead": [1,12]
+  },
+  "arch": {
+    "filters": [128],
+    "strides": [1],
+    "kernel_size": [5],
+    "drop": 0.3,
+    "dilation": false,
+    "k_reg": "None",
+    "k_regw": 0.1,
+    "rec_reg": "None",
+    "rec_regw": 0.1,
+    "activation": ["elu",0.4],
+    "activation_full": ["elu",0.3],
+    "fulldrop": 0.2,
+    "full": [16,8],
+    "mode":"CNN_res_mimo"
+  },
+  "training": {
+    "iter": 1,
+    "batch": 1024,
+      "epochs": 200,
+      "patience":10,
+      "optimizer": "adamax",
+    "lrate": 0.001
+  }
+}

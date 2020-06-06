@@ -1,0 +1,42 @@
+{ 
+   "_id": "00000000",
+      "experiment": "CNN_sep_5m_12h",
+  "data": {
+    "datanames": ["62-31321-01"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 526008,
+    "testsize": 210408,
+    "dataset": "onesitemanyvar",
+    "ahead": [1,144],
+    "aggregate":{"y":{"method":"average","step":12}},
+    "lag": 72
+    }, 
+    "arch": {
+          "activation": ["elu", 0.4],
+          "activation_full": ["leaky", 0.2],
+          "dilation": false,
+          "drop": 0.6,
+          "filters": [256],
+          "full": [1024],
+          "depth_multiplier": 9,
+          "fulldrop": 0.3,
+          "k_reg": "None",
+          "k_regw": 0.1,
+          "kernel_size": [17],
+          "mode": "CNN_sep_s2s",
+          "rec_reg": "None",
+          "rec_regw": 0.1,
+          "strides": [9]
+  },
+  "training": {
+    "iter": 1,
+    "batch": 1024,
+    "epochs": 400,
+    "saverrors": true,
+    "patience":10,
+    "saverrors": false,
+    "optimizer": "adamax",
+    "lrate": 0.001
+  }
+}

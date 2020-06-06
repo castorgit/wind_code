@@ -1,0 +1,7 @@
+netCDF4
+tensorflow
+keras
+matplotlib
+seaborn
+scikit-learn
+tqdm

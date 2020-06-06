@@ -1,0 +1,26 @@
+{ "_id": "00000000",
+  "experiment": "TEST",
+  "data": {
+    "datanames": ["54-27274-01"],
+    "scaler": "standard",
+    "vars": "all",
+    "datasize": 526008,
+    "testsize": 210408,
+    "dataset": 0,
+    "lag": 144,
+    "aggregate":{
+       "step": 12,
+       "y":{
+         "step": 12,
+         "method": "average"
+        }
+    },
+    "ahead": [1,144]
+  },
+  "arch": {
+    "mode": "persistence"
+  },
+    "training": {
+
+  }
+}
